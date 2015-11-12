@@ -1,0 +1,18 @@
+<a class="btn btn-primary" href="#">Create account</a>
+<table class="table" >
+			<thead>
+				<tr>
+
+				<th>Name</th>
+				<th>Age</th>
+				<th>Option</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="account in accounts">
+					<th>{{account.name}}</th>
+					<th>{{account.age}}</th>
+					<th><a class="btn btn-primary btn-xs">View</a></th>
+				</tr>
+			</tbody>
+		</table>
